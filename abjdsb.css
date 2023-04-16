@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.container {
+  max-width: 1120px;
+  margin: auto;
+  padding: 10px;
+}
+
+.content{
+  margin: 0 20px 0 20px;
+
+}
+
+.content h1{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.content .garis{
+  margin-top: 1px;
+  background-color: blue;
+  width: 130px;
+  height: 3px;
+}
+
+.sectionn::-webkit-scrollbar{
+  height: 4px;
+  border-radius: 10px;
+  background: transparent;
+  width: 30px !important;
+
+}
+
+.sectionn::-webkit-scrollbar-thumb{
+  background-color: red;
+}
+
+.sectionn{
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  padding-left: 2px;
+}
+
+.sectionn .box{
+  box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px, rgba(60,64,67,0.15) 0px 2px 6px 2px;
+margin: auto;
+border-radius: 10px;
+width:30%;
+text-align: center;
+height: 400px;
+
+margin-right: 20px;
+}
+.sectionn .box img{
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
